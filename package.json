@@ -1,0 +1,30 @@
+{
+  "name": "ej-tattoo-supply",
+  "version": "1.0.0",
+  "description": "",
+  "main": "projeto",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabricciomb/ejtattoo.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "gulp",
+    "npm",
+    "bower",
+    "github\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C"
+  ],
+  "author": "Fabriccio Bueno Martinelli <fabricciobuenomartinelli@gmail.com<.\u001b.\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001bm....\u001b.\u001b.\u001b.\u001b.\u001b.\u001b.>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fabricciomb/ejtattoo/issues"
+  },
+  "homepage": "https://github.com/Fabricciomb/ejtattoo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

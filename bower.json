@@ -1,0 +1,29 @@
+{
+  "name": "ej-tattoo-supply",
+  "description": "",
+  "main": "projeto",
+  "authors": [
+    "Fabriccio Bueno Martinelli <fabricciobuenomartinelli@gmail.com<.\u001b.\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001bm....\u001b.\u001b.\u001b.\u001b.\u001b.\u001b.>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "gulp",
+    "npm",
+    "bower",
+    "github\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "breakpoint-sass": "^2.7.0"
+  }
+}
