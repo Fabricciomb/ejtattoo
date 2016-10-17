@@ -1,5 +1,26 @@
 header
 	width: 100%
 	+gradient(135deg, $preto, $cinza-escuro)
-	.header-container
-		+make-container
+	.container
+		div.logo
+			float: left
+			h1, p
+				display: none
+			img
+				width: 120px
+		nav.navegacao
+			float: right
+			h1
+				display: none
+			ul.menu-principal
+				li
+					display: inline-block
+					a
+						color: $branco
+						text-decoration: none;
+						line-height: 80px;
+						padding: 10px 10px 10px 20px;
+			ul.menu-mobile
+				float: left
+				li
+					display: inline-block

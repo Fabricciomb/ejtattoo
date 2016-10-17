@@ -25,6 +25,9 @@
   },
   "homepage": "https://github.com/Fabricciomb/ejtattoo#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.10",
+    "live-server": "^1.1.0"
   }
 }
