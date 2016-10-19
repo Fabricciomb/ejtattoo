@@ -1,26 +1,45 @@
 header
+	+clearfix
 	width: 100%
 	+gradient(135deg, $preto, $cinza-escuro)
 	.container
 		div.logo
 			float: left
+			padding: 10px 0
 			h1, p
 				display: none
 			img
-				width: 120px
+				width: auto
+				max-width: 100%
+				height: 70px
 		nav.navegacao
 			float: right
+			padding: 10px 0
 			h1
 				display: none
+			ul.menu-principal, ul.menu-mobile
+				display: inline-block
 			ul.menu-principal
+				+breakpoint($celular)
+					display: none
+				+breakpoint($tablet)
+					display: none
 				li
+					margin: 0 20px 0 0
 					display: inline-block
+					color: $branco
 					a
+						text-decoration: none
+						text-transform: uppercase
+						line-height: 70px
+						margin: 0 0 0 10px
 						color: $branco
-						text-decoration: none;
-						line-height: 80px;
-						padding: 10px 10px 10px 20px;
 			ul.menu-mobile
-				float: left
 				li
 					display: inline-block
+					margin: 0 10px 0 0
+					color: $branco
+					line-height: 70px
+					a
+						text-decoration: none
+						color: $branco
