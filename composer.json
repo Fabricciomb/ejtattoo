@@ -1,0 +1,11 @@
+{
+    "name": "vendor/composer",
+    "description": "Dependencias php do projeto",
+    "authors": [
+        {
+            "name": "Fabriccio Martinelli",
+            "email": "fabricciobuenomartinelli@gmail.com"
+        }
+    ],
+    "require": {}
+}

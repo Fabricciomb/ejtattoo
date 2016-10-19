@@ -4,7 +4,8 @@ header
 	+gradient(135deg, $preto, $cinza-escuro)
 	.container
 		div.logo
-			float: left
+			+make-xs-column(6)
+			+make-sm-column(3)
 			padding: 10px 0
 			h1, p
 				display: none
@@ -13,13 +14,16 @@ header
 				max-width: 100%
 				height: 70px
 		nav.navegacao
-			float: right
+			+make-xs-column(6)
+			+make-sm-column(8)
+			+make-sm-column-offset(1)
 			padding: 10px 0
 			h1
 				display: none
 			ul.menu-principal, ul.menu-mobile
 				display: inline-block
 			ul.menu-principal
+				float: right
 				+breakpoint($celular)
 					display: none
 				+breakpoint($tablet)
@@ -27,19 +31,38 @@ header
 				li
 					margin: 0 20px 0 0
 					display: inline-block
-					color: $branco
+					color: $cinza
+					+transition(.5s)
+					&:hover
+						color: $vermelho
 					a
 						text-decoration: none
 						text-transform: uppercase
 						line-height: 70px
 						margin: 0 0 0 10px
-						color: $branco
+						color: $cinza
+						font-family: 'PT Sans', sans-serif !important
+						+font-size(15px)
+						font-weight: $bold
+						&:hover
+							color: $branco					
 			ul.menu-mobile
+				display: none
+				float: right
+				+breakpoint($celular)
+					display: block
+				+breakpoint($tablet)
+					display: block
 				li
 					display: inline-block
 					margin: 0 10px 0 0
-					color: $branco
+					color: $cinza
 					line-height: 70px
 					a
 						text-decoration: none
-						color: $branco
+						color: $cinza
+						&:hover
+							color: $vermelho	
+
+
+
